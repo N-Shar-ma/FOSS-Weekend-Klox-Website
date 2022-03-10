@@ -146,6 +146,12 @@ header.show-mobile .hamburger-top {
 	background-color: var(--brand-dark-blue);
 }
 
+header.show-mobile .hamburger-middle {
+     visibility:none;
+     opacity: 0;
+	 transform: translateY(90deg);
+}
+
 .hamburger-bottom {
 	background-color: var(--brand-green);	
 	transform-origin: left;

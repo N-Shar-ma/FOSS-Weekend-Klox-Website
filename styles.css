@@ -144,6 +144,8 @@ header.show-mobile .hamburger-top {
 
 .hamburger-middle {
 	background-color: var(--brand-dark-blue);
+	/* transform: opacity=0; */
+	/* visibility:none; */
 }
 
 .hamburger-bottom {
@@ -154,7 +156,13 @@ header.show-mobile .hamburger-top {
 header.show-mobile .hamburger-bottom {
 	transform: translateX(1px) rotateZ(-42deg);
 }
-
+header.show-mobile .hamburger-middle {
+	visibility: hidden;
+	opacity: 0;
+	/* display: none; */
+	transform: rotateY(90deg);
+	/* position: absolute; */
+}
 .nav-link, .back-to-top {
 	font-size: 1.5rem;
 	padding: 5px 15px;

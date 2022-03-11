@@ -155,9 +155,6 @@ header.show-mobile .hamburger-bottom {
 	transform: translateX(1px) rotateZ(-42deg);
 }
 
-header.show-mobile .hamburger-middle {
-	background-color: transparent;
-}
 .nav-link, .back-to-top {
 	font-size: 1.5rem;
 	padding: 5px 15px;

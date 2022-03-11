@@ -304,7 +304,7 @@ article > section > section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 6.9%;
+	border-radius: 20px;
 	background-position: center;
 	background-size: cover;
 }

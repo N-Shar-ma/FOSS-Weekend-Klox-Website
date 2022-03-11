@@ -144,8 +144,7 @@ header.show-mobile .hamburger-top {
 
 .hamburger-middle {
 	background-color: var(--brand-dark-blue);
-	/* transform: opacity=0; */
-	/* visibility:none; */
+	
 }
 
 .hamburger-bottom {
@@ -157,11 +156,9 @@ header.show-mobile .hamburger-bottom {
 	transform: translateX(1px) rotateZ(-42deg);
 }
 header.show-mobile .hamburger-middle {
-	visibility: hidden;
-	opacity: 0;
-	/* display: none; */
+	
 	transform: rotateY(90deg);
-	/* position: absolute; */
+	
 }
 .nav-link, .back-to-top {
 	font-size: 1.5rem;
@@ -308,6 +305,7 @@ article > section > section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	/* background-image: url(""); */
 }
 
 .tagline {
@@ -322,6 +320,7 @@ article > section > section {
 @media all and (max-width: 780px) {
 	.hero-logo {
 		width: 50vw;
+		/* background-image: url(""); */
 	}
 }
 

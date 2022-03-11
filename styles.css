@@ -168,6 +168,11 @@ header.show-mobile .hamburger-middle{
 	transition: 300ms 100ms ease-in-out;
 }
 
+html{
+	scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
+}
+
 .nav-link {
 	list-style: none;
 }

@@ -13,7 +13,7 @@ button {
 
 html{
 	scroll-behavior: smooth;
-	scroll-padding-top: 12vh;
+	scroll-padding-top: var(--header-height);
 }
 
 :root {

@@ -295,6 +295,11 @@ article > section > section {
 }
 
 .hero {
+	background-image: url('./SVG/bgImg.svg');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center; 
+	-webkit-border-radius: 50px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;

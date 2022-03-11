@@ -11,6 +11,11 @@ button {
 	margin: 20px;
 }
 
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 12vh;
+}
+
 :root {
 	--brand-purple: hsl(238, 52%, 38%);
 	--brand-purple-transparent: hsla(238, 52%, 38%, 0.4);

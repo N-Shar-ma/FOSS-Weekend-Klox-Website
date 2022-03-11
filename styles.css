@@ -157,9 +157,6 @@ header.show-mobile .hamburger-bottom {
 	transform: translateX(1px) rotateZ(-42deg);
 }
 
-header.show-mobile .hamburger-middle{
-	background: transparent;
-}
 
 .nav-link, .back-to-top {
 	font-size: 1.5rem;
@@ -172,6 +169,7 @@ html{
 	scroll-behavior: smooth;
     scroll-padding-top: var(--header-height);
 }
+
 
 .nav-link {
 	list-style: none;

@@ -147,9 +147,8 @@ header.show-mobile .hamburger-top {
 }
 
 header.show-mobile .hamburger-middle {
-     visibility:none;
-     opacity: 0;
-	 transform: translateY(90deg);
+   opacity: 0;
+	
 }
 
 .hamburger-bottom {
@@ -166,6 +165,7 @@ header.show-mobile .hamburger-bottom {
 	padding: 5px 15px;
 	border-radius: 100px;  /*always rounded and pill shaped */
 	transition: 300ms 100ms ease-in-out;
+	
 }
 
 .nav-link {

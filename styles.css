@@ -105,6 +105,8 @@ h1 {
 	}
 }
 
+
+
 .hamburger-icon {
 	display: none;
 	background-color: transparent;
@@ -153,6 +155,10 @@ header.show-mobile .hamburger-top {
 
 header.show-mobile .hamburger-bottom {
 	transform: translateX(1px) rotateZ(-42deg);
+}
+
+header.show-mobile .hamburger-middle{
+	background: transparent;
 }
 
 .nav-link, .back-to-top {
@@ -300,6 +306,7 @@ article > section > section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .tagline {

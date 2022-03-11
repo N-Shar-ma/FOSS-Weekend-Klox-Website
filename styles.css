@@ -305,7 +305,6 @@ article > section > section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* background-image: url(""); */
 }
 
 .tagline {
@@ -320,7 +319,6 @@ article > section > section {
 @media all and (max-width: 780px) {
 	.hero-logo {
 		width: 50vw;
-		/* background-image: url(""); */
 	}
 }
 

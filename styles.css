@@ -155,6 +155,9 @@ header.show-mobile .hamburger-bottom {
 	transform: translateX(1px) rotateZ(-42deg);
 }
 
+header.show-mobile .hamburger-middle {
+	background-color: transparent;
+}
 .nav-link, .back-to-top {
 	font-size: 1.5rem;
 	padding: 5px 15px;
@@ -295,11 +298,15 @@ article > section > section {
 }
 
 .hero {
+	background-image: url('SVG/bgImg.svg');
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	border-radius: 6.9%;
+	background-position: center;
+	background-size: cover;
 }
 
 .tagline {

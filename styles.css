@@ -19,14 +19,35 @@ button {
 	--brand-dark-blue: hsl(204, 100%, 37%);
 	--brand-light-blue: hsl(198, 76%, 52%);
 	--header-height: 12vh;
-}
-
-body {
 	--body-background: hsla(0, 0%, 100%, 1);
 	--header-background: rgba(255, 255, 255, 0.8);
 	--text-color: rgba(0, 0, 0, 0.8);
 	--important-text-color: black;
 	--nav-link-hover-background-color: hsla(198, 76%, 52%, 0.2);
+}
+/* addeded media prefernce dark/light */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--body-background: hsla(0, 0%, 12%, 1);
+		--header-background: rgba(0, 0, 0, 0.7);
+		--text-color: rgba(255, 255, 255, 0.8);
+		--important-text-color: white;
+		--nav-link-hover-background-color: rgba(255, 255, 255, 0.2);
+	}
+  }
+@media (prefers-color-scheme: light) {
+	:root {
+		--body-background: hsla(0, 0%, 100%, 1);
+	--header-background: rgba(255, 255, 255, 0.8);
+	--text-color: rgba(0, 0, 0, 0.8);
+	--important-text-color: black;
+	--nav-link-hover-background-color: hsla(198, 76%, 52%, 0.2);
+	}
+}
+/*  end */
+
+body {
+	
 	background-color: var(--body-background);
 	background-image: linear-gradient(to left, var(--brand-purple-transparent), var(--brand-green-transparent));
 	transition: background-color 300ms ease-in-out, color 300ms ease-in-out;

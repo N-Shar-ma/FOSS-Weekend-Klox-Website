@@ -1,13 +1,15 @@
 const header = document.querySelector("header");
 
-const darkModeToggle = document.querySelector(".dark-mode-toggle");
-darkModeToggle.addEventListener("click", toggleDarkMode);
+// removed 
+// const darkModeToggle = document.querySelector(".dark-mode-toggle");
+// darkModeToggle.addEventListener("click", toggleDarkMode);
 
-function toggleDarkMode()
-{
-	darkModeToggle.classList.toggle("dark");
-	document.querySelector("body").classList.toggle("dark");
-}
+// function toggleDarkMode()
+// {
+// 	darkModeToggle.classList.toggle("dark");
+// 	document.querySelector("body").classList.toggle("dark");
+// }
+// 
 
 const menuToggle = document.querySelector("[data-menu-toggle]");
 menuToggle.addEventListener("click", toggleMenu);

@@ -12,6 +12,8 @@ button {
 }
 
 :root {
+	scroll-behavior: smooth;
+	scroll-padding-top: var(--header-height);
 	--brand-purple: hsl(238, 52%, 38%);
 	--brand-purple-transparent: hsla(238, 52%, 38%, 0.4);
 	--brand-green: hsl(128, 52%, 47%);
@@ -295,11 +297,17 @@ article > section > section {
 }
 
 .hero {
+	
+	justify-content: center;
+	align-items: center;
+	background-image: url('./SVG/bgImg.svg');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center; 
+	border-radius: 50px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 .tagline {
@@ -419,4 +427,9 @@ footer * {
 .footer-brand-name {
 	font-size: 2rem;
 }
-
+p{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+	font-weight: 100;
+	font-style: italic;
+}
